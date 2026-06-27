@@ -25,8 +25,4 @@
     <ProjectReference Include="..\..\src\PlaywrightDotnetApiUi.Framework\PlaywrightDotnetApiUi.Framework.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Tests\" />
-  </ItemGroup>
-
 </Project>
