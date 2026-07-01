@@ -4,7 +4,7 @@ namespace PlaywrightDotnetApiUi.Tests.Tests;
 
 [TestFixture]
 [Category("Products")]
-public class ProductsApiTests : BaseTest
+public class ProductsApiTest : ApiBaseTest
 {
     [Test]
     public async Task ShouldGetProductList()
