@@ -10,7 +10,7 @@ public abstract class BaseTest : PageTest
     protected IAPIRequestContext Request = null!;
 
     [SetUp]
-    public async Task SetUpApiTesting()
+    public async Task SetUpHybridTesting()
     {
         var headers = new Dictionary<string, string> { { "Accept", "application/json" } };
 
@@ -29,7 +29,7 @@ public abstract class BaseTest : PageTest
     }
 
     [TearDown]
-    public async Task TearDownApiTesting()
+    public async Task TearDownHybridTesting()
     {
         var failed = TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed;
 
